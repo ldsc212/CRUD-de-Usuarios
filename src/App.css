@@ -1,0 +1,29 @@
+body,
+.App {
+  background-image: url('/CRUD.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.header {
+  max-width: 1024px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px 50px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-top-right {
+  position: fixed;
+  top: 48px;
+  right: 16px;
+  z-index: 9999;
+}
