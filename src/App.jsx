@@ -81,11 +81,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="logo-top-right">
-        <img src="/logo.png" alt="Logo" style={{ width: 80, height: 80, objectFit: 'contain' }} />
-      </div>
+
       <div style={{ display: 'flex', justifyContent: 'center', Top: 32, marginBottom: -111 }}>
-        <img src="/logo.png" alt="Logo" style={{ width: 125, height: 120, objectFit: 'contain' }} />
+        <img src="/logo.png" alt="Logo" className="logo-filter" style={{ width: 125, height: 120, objectFit: 'contain' }} />
       </div>
       <div className="header">
         <h1 className="title">User CRUD</h1>

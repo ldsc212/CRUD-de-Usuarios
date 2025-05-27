@@ -27,3 +27,7 @@ body,
   right: 16px;
   z-index: 9999;
 }
+
+.logo-filter {
+  filter: brightness(10);
+}

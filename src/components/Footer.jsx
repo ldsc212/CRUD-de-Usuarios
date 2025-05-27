@@ -6,7 +6,7 @@ const Footer = () => (
     <footer className="footer">
         <div className="footer-content center-content">
             <a
-                href="https://github.com/ldsc86"
+                href="https://github.com/ldsc212"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer-link"

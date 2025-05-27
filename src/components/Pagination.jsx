@@ -1,6 +1,6 @@
 function Pagination({ page, totalPages, prev, next }) {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 16, margin: '0 0 20px 0', marginTop: '-60px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 16, margin: '0 0 20px 0', paddingBottom: '58px' }}>
             <button onClick={prev} disabled={page === 1} aria-label="Anterior">
                 &#8592;
             </button>
